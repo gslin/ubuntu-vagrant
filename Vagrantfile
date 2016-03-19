@@ -6,6 +6,5 @@ Vagrant.configure(2) do |config|
 
     config.vm.define "test" do |c|
         c.vm.hostname = "test"
-        c.vm.provision "shell", path: "install.sh"
     end
 end
